@@ -1,0 +1,106 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+/* Custom CSS Reset End */
+
+:root {
+    --clr-primary-800: hsl(218, 44%, 22%);
+
+    --clr-neutral-300: hsl(220, 15%, 55%);
+    --clr-neutral-200: hsl(212, 45%, 89%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    --fs-regular: 0.9375rem;
+
+    --ff-base: 'Outfit', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--clr-neutral-200);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    max-width: 20rem;
+
+    background-color: var(--clr-neutral-100);
+    border-radius: 1rem;
+    margin: auto 0 2rem;
+}
+
+.containerImage{ 
+  flex:1;
+  margin: 1rem;
+}
+
+.containerImage img {
+  border-radius: 0.5rem;
+}
+
+.containerText {
+  margin: 1rem;
+  text-align: center;
+}
+
+.containerTitle {
+    color: var(--clr-primary-800);
+
+    font-family: var(--ff-base);
+    font-weight: var(--fw-bold);
+    font-size: 1.4rem;
+
+    line-height: 1.7rem;
+}
+.containerDescription {
+  color: var(--clr-neutral-300);
+
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+
+  line-height: 1.2rem;
+  margin: 1rem;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 1rem;
+  margin-top: auto;
+}
+.attribution p {
+  font-size: 1rem;
+}
