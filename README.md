@@ -18,8 +18,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor link](https://www.frontendmentor.io/solutions/qr-container-component-created-using-html-and-css-XJRqvl_LKK)
+- Live Site URL: [Netlify link](https://qrcodeprojectbytg.netlify.app/)
 
 ### Built with
 
